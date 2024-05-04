@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    background: rgb(0, 0, 0);
+    padding: 20px 30px;
+    justify-content: space-around;
+    text-align: center;
+    position: fixed; 
+    height: 12vh;
+    width: 100%;
+
+}
+
+ol {
+    list-style: none;
+    padding-bottom: 50%;
+}
+h2 {
+ color: white;
+}

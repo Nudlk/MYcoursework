@@ -1,5 +1,4 @@
-//import './header-styles.css'
-import logo from './../../logo.svg';
+//import './header-styles.css';
 import { useState } from 'react';
 
 export default () => {
@@ -8,7 +7,6 @@ export default () => {
     setInterval(() => setNow(new Date()), 1000)
     return (
     <header>
-        <img src={logo} alt="logo"></img>
         <nav>
           <ul>
             <li><a href="Guild.js">Главная</a></li>
@@ -16,8 +14,14 @@ export default () => {
             <li><a href="Review.js">Обзоры</a></li>
             <li><a href="Wiki.js">Вики</a></li>
             <li><a href="Profile.js">Профиль</a></li>
+            <li><a>📅</a></li>
+            <li>
+              <form>
+              <input type="search" placeholder="Поиск:"/>
+              </form>
+            </li>
           </ul>
         </nav>
-        <span>Time now: {(new Date()).toLocaleTimeString()}</span>
+        <span>Время: {(new Date()).toLocaleTimeString()}</span>
       </header>)
 }
