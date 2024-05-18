@@ -1,0 +1,12 @@
+img {
+    height: 100px;
+    width: 200px;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+.Rew {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}

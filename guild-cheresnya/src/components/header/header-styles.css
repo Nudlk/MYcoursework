@@ -42,14 +42,13 @@ span {
 form {
     padding-top: 1,5rem;
     border-radius: 20px;
+    margin: 0;
 }
 form input {
     width: 18rem;
     outline: none;
     border: none;
     background: #ddd;
-    padding: 12px 14px;
-    margin: auto;
-    
+    padding: 12px 14px; 
     border-radius: 20px;
 }
