@@ -13,7 +13,7 @@ img {
 nav {
     flex: 1;
 }
-ul {
+ol {
     display: flex;
     list-style: none;
     justify-content: space-around;

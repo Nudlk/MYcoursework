@@ -1,19 +1,13 @@
 import './components/header/header-styles.css';
 import './App.css'
 import Header from './components/header/header.js';
-import MainList from './components/main/main.js';
-import { dataForList } from './content/mainData';
-import Button from './components/button/button.js';
+//import MainList from './components/main/main.js';
+//import { dataForList } from './content/mainData';
+//import Button from './components/button/button.js';
 import Footer from './components/footer/footer.js';
-import { useState } from 'react';
+//import { useState } from 'react';
 
 function App() {
-  const [contentFromButton, setNewContent] = useState('About us');
-  //let contentFromButton = 'About us'
-  const handleClick = (prop) => {
-    console.log(prop);
-    setNewContent(prop);
-  }
   return (
     <div className="App">
       <Header />
@@ -43,13 +37,8 @@ function App() {
                 </ul>
           </div>
         </div>
-        <div>
-          <h1>О сайте:</h1>
-        </div>
-        <Button onCLick = {() => handleClick('prop1')}>Item 1</Button>
-        <Button onCLick = {() => handleClick('prop2')}>Item 2</Button>
-        <Button onCLick = {() => handleClick('prop3')}>Item 3</Button>
-        <p>{dataForButtons[contentFromButton]}</p>
+        <h1>О сайте:</h1>
+        <h3>Данный сайт создаётся с целью закрытия курсовой работы и не является конечным вариантом официального сайта Гильдии Черешня. В будующем данный сайт будет иметь связь с базами данный благодаря чему можно будет увеличить его безопасность, а также расширить его функционал, помимо этого планируется система профилей и заход на сайт через Discord API всё это будет происходить вместе с редизайном сайта и привоечением большего колличества людей для работы над ним</h3>
       </main>
       <Footer />
     </div>

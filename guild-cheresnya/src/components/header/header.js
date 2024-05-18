@@ -8,7 +8,7 @@ export default () => {
     return (
     <header>
         <nav>
-          <ul>
+          <ol>
             <li><a href="Guild.js">Главная</a></li>
             <li><a href="News.js">Новости</a></li>
             <li><a href="Review.js">Обзоры</a></li>
@@ -20,7 +20,7 @@ export default () => {
               <input type="search" placeholder="Поиск:"/>
               </form>
             </li>
-          </ul>
+          </ol>
         </nav>
         <span>Время: {(new Date()).toLocaleTimeString()}</span>
       </header>)
