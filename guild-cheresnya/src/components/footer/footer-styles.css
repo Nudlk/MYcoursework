@@ -1,19 +1,14 @@
-footer {
-    margin-top: auto;
-    display: flex;
-    background: rgb(0, 0, 0);
-    padding: 20px 30px;
-    justify-content: space-around;
-    text-align: center;
-    height: 12vh;
+.main-footer {
+    color: white;
+    background-color: black;
+    padding-top: 3rem;
+    margin-top: 1rem;
+    position: relative;
+    bottom: 0;
     width: 100%;
-    position: absolute;
 }
-
-p {
-    text-align: center;
-    padding-bottom: 50%;
-}
-h2 {
- color: white;
+.Title img{
+    height: 100px;
+    width: 300px;
+    margin-bottom: 1rem;
 }
