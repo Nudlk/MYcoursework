@@ -1,7 +1,10 @@
-import '/workspaces/coursework-Gubin/guild-cheresnya/src/content/ReviewStyle.css';
-export default () => {
-    return (
-    <div class='backside'>
+import React, { Component } from 'react'
+import '/workspaces/coursework-Gubin/guild-cheresnya/src/pages/Reviews.css';
+
+export default class Reviews extends Component {
+    render() {
+        return (
+            <div class='backside'>
         <div class="Rew">
             <div>
                 <img src="images/Castle.jpg"alt="Castlevania"/>
@@ -101,5 +104,6 @@ export default () => {
             </div>
         </div>
     </div>
-    )
+        )
+    }
 }
