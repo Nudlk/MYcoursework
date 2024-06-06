@@ -1,28 +1,33 @@
 .backside {
-    background: #3F342E;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-  border-radius: 20px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1800px;
-  height: auto;
+  background: #3F342E;
+padding-top: 3rem;
+padding-bottom: 5rem;
+border-radius: 20px;
+margin-top: 3rem;
+margin-bottom: 3rem;
+margin-left: auto;
+margin-right: auto;
+width: 1800px;
+height: auto;
 
 }
 img {
-    height: 100px;
-    width: 200px;
-    margin: 2rem 2rem 0rem 2rem;
-    border-radius: 20px;
+  height: 100px;
+  width: 200px;
+  margin: 2rem 2rem 0rem 2rem;
+  border-radius: 20px;
 }
 .Rew {
-    text-align: center;
-    align-items: center;
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+image {
+  height: auto;
+  width: 20vw;
+
 }

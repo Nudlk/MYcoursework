@@ -1,0 +1,20 @@
+.Rew {
+  text-align: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+  display: flex;
+}
+
+.ImageWithGameName {
+    align-items: center;
+  }
+  
+  .Rew img {
+    height: auto;
+    width: 10vw;
+    margin: 2rem 2rem 0rem 2rem;
+    border-radius: 20px;
+  }
+  
