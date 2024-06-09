@@ -25,6 +25,7 @@ img {
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 image {
   height: auto;

@@ -1,0 +1,23 @@
+.News_title {
+    font-size: 3vh;
+}
+.News img {
+    width: 55vw;
+    height: auto;
+
+}
+.inf {
+    font-size: 2vh;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont {
+    font-size: 2vh;
+    text-align: center;
+    margin-top: 1vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 6vh;
+}
